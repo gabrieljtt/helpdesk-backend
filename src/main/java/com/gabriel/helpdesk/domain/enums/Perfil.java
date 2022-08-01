@@ -1,4 +1,6 @@
-package com.gabriel.helpdesk.domains.enums;
+package com.gabriel.helpdesk.domain.enums;
+
+import com.gabriel.helpdesk.domain.enums.Perfil;
 
 public enum Perfil {
 	

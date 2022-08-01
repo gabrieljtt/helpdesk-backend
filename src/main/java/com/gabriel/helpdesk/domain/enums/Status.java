@@ -1,8 +1,10 @@
-package com.gabriel.helpdesk.domains.enums;
+package com.gabriel.helpdesk.domain.enums;
+
+import com.gabriel.helpdesk.domain.enums.Status;
 
 public enum Status {
 	
-	ABERTO(0, "ABERTO"), ANDAMENTO(1, "ANDAMENTO"), ENCERRADO(2, "ENCERRADO");
+	ABERTO(0, "ABERTO"), ANDAMENTO(1, "ANDAMENTO"), FECHADO(2, "FECHADO");
 	
 	private Integer codigo;
 	private String descricao;
